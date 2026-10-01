@@ -2,6 +2,8 @@
 
 [Open the workshop](https://2gavy.github.io/agent-evals/)
 
+[![Agent Evaluation Workshop: before-and-after example](assets/workshop-preview.png)](https://2gavy.github.io/agent-evals/)
+
 A beginner, hands-on workshop for evaluating agents built with Elastic Agent Builder.
 
 Follow one customer-support example from a baseline answer through evaluation, improvement, automation and online observation. Compare A and B side by side, inspect the evidence and copy the lab commands directly from the website.
@@ -48,10 +50,10 @@ Open <http://localhost:8877/>. Serve the files over HTTP rather than opening `in
 - `style.css` — layout and styling.
 - `metrics.mjs` — metric calculations.
 - `lab-assets.mjs` — copyable commands, instructions, judge prompt and Python capture-runner text.
-- `assets/` — three SVG icons used by the workshop.
+- `assets/` — three SVG icons and the README preview screenshot.
 - `.nojekyll` — serves the static files without Jekyll processing.
 
-Screenshots, tests, local result files, standalone development scripts and duplicate lab files are excluded. The capture runner is included as copyable text inside the site, not as a hosted service.
+Development screenshots, tests, local result files, standalone development scripts and duplicate lab files are excluded. Only the README preview screenshot is included. The capture runner is included as copyable text inside the site, not as a hosted service.
 
 ## Using the examples
 
