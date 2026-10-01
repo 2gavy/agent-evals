@@ -2,7 +2,7 @@
 
 [Open the workshop](https://2gavy.github.io/agent-evals/)
 
-[![Agent Evaluation Workshop: before-and-after example](assets/workshop-preview.png)](https://2gavy.github.io/agent-evals/)
+[![Agent Evaluation Workshop: before-and-after example](assets/workshop-overview.png)](https://2gavy.github.io/agent-evals/)
 
 A beginner, hands-on workshop for evaluating agents built with Elastic Agent Builder.
 
