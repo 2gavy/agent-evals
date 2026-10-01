@@ -12,7 +12,7 @@ Follow one customer-support example from a baseline answer through evaluation, i
 
 1. **Why** — compare an incomplete answer with a useful one.
 2. **Build** — create an Elastic project, ingest documents and configure the agent and tools.
-3. **Define success** — agree on the expected facts and behaviour with an SME.
+3. **Golden dataset** — review five starter cases, reference facts, expected trajectories and pass criteria with an SME.
 4. **Search** — evaluate retrieval coverage, ranking and query fan-out.
 5. **Tools & Skills** — inspect tool arguments, results and the agent trajectory.
 6. **Generation** — compare instructions and the resulting answers.
