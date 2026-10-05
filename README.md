@@ -18,7 +18,7 @@ Follow one customer-support example from a baseline answer through evaluation, i
 6. **Generation** — compare instructions and the resulting answers.
 7. **Evaluate** — score completeness, correctness, groundedness and citations.
 8. **Improve** — test retrieval, tool configuration, instructions or model changes.
-9. **Automate** — use code checks and a calibrated LLM judge; copy the A/B capture runner.
+9. **Automate** — run a copyable G01 LangSmith A/B experiment against Elastic Agent Builder, inspect completeness scores and judge reasons, then expand to the five-case benchmark.
 10. **Online** — use conversation traces to identify new failure cases.
 11. **Release** — retest, monitor and add regression coverage.
 
