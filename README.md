@@ -15,9 +15,9 @@ Follow one customer-support example from a baseline answer through evaluation, i
 3. **Golden dataset** — review five starter cases, reference facts, expected trajectories and pass criteria with an SME.
 4. **Search** — evaluate retrieval coverage, ranking and query fan-out.
 5. **Tools & Skills** — inspect tool arguments, results and the agent trajectory.
-6. **Generation** — compare instructions and the resulting answers.
-7. **Evaluate** — score completeness, correctness, groundedness and citations.
-8. **Improve** — test retrieval, tool configuration, instructions or model changes.
+6. **Generation** — inspect the baseline instructions, evidence and answer.
+7. **Evaluate** — manually score A against the SME checklist and diagnose the failure.
+8. **Improve** — change one instruction and compare A/B answers with scores side by side; explore other fixes optionally.
 9. **Automate** — run a copyable G01 LangSmith A/B experiment against Elastic Agent Builder, inspect completeness scores and judge reasons, then expand to the five-case benchmark.
 10. **Online** — use conversation traces to identify new failure cases.
 11. **Release** — retest, monitor and add regression coverage.
