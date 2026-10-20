@@ -59,3 +59,13 @@
 .ls-workflow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:14px 0}.ls-workflow .card{border-top:3px solid #0b64e8}.ls-workflow .card:nth-child(2){border-top-color:#7954bb}.ls-workflow .card:nth-child(3){border-top-color:#d78116}.ls-workflow .card:nth-child(4){border-top-color:#00866c}.ls-score{font-size:30px;color:#153887}.langsmith-exercise .lane.b .ls-score{color:#00755e}@media(max-width:800px){.ls-workflow{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
 .evaluator-badges{display:flex;gap:5px;flex-wrap:wrap;min-height:48px;align-content:start;margin:10px 0}.evaluator-badges span{font-size:10px;font-weight:700;border:1px solid var(--category-edge);border-radius:4px;padding:3px 6px;background:#fff;color:var(--category-color)}.evaluator-input{border-top:1px solid var(--category-edge);padding-top:10px}.evaluator-key{font-size:12px;margin:14px 0}.langsmith-intro .card:nth-child(2){--category-color:#006B54;--category-edge:#88C9B5;--category-bg:#EAF8F1}.langsmith-intro .card:nth-child(3){--category-color:#6840A2;--category-edge:#C4ADE7;--category-bg:#F4EEFC}.langsmith-intro .card:nth-child(4){--category-color:#A33A23;--category-edge:#E6AD9F;--category-bg:#FFF0EA}
+
+/* A compact, traceable evaluation record. */
+.evaluation-record{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:12px 0}
+.evaluation-record article{border:1px solid #b5c8eb;border-top:3px solid #0b64f4;border-radius:6px;padding:14px;background:#edf3ff}
+.evaluation-record article:nth-child(2){background:#fff0eb;border-color:#df967e}
+.evaluation-record article:nth-child(3){background:#f3efff;border-color:#b0a0d8}
+.evaluation-record article:nth-child(4){background:#e7f6f1;border-color:#00856d}
+.evaluation-record h4{margin:0 0 10px;font-size:14px}.evaluation-record strong{font-size:22px}.evaluation-record p{margin:8px 0 0}
+@media(max-width:760px){.evaluation-record{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:420px){.evaluation-record{grid-template-columns:1fr}}
